@@ -3,3 +3,7 @@
 ################################################################################
 
 /ExtremeCode/.vs/ExtremeCode/v16
+/.vs
+/.vscode
+/ExtremeCode/bin/Debug/netcoreapp3.1
+/ExtremeCode/obj

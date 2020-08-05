@@ -5,7 +5,7 @@ namespace CSharp_learning
         private int fieldInt = 5;
         private string fieldString = "Properties better than fields";
 
-        private int fieldValue;
+        private int fieldValue = 15;
 
         public int propertyValue 
         {

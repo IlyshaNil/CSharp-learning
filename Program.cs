@@ -19,7 +19,24 @@ namespace CSharp_learning
             
 
             Console.WriteLine(result);
-            Console.ReadKey();
+            Console.WriteLine(propertyResult);
+            
+
+            InheritanceBoozer Seva = new InheritanceBoozer();
+            Seva.Age = 54;
+            Seva.Name = "Seva";
+            Seva.Sex = "Genderfluid";
+            Seva.SayHelloToSomebody();
+
+
+            InheritanceOldBoozer Herald = new InheritanceOldBoozer();
+            Herald.Age = 228;
+            Herald.Name = "From Rivia";
+            Herald.Sex = "Deep hetero";
+            Herald.Fight();
+            
+
+            
         }
     }
 }

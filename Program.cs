@@ -60,6 +60,11 @@ namespace CSharp_learning
 
             
 
+            AdHocPoly overload = new AdHocPoly();
+            Console.WriteLine(overload.GetMax(2, 5));
+            Console.WriteLine(overload.GetMax("dfg", "dgfeg"));
+            Console.WriteLine(overload.GetMaxParam(2,45,32,34,45,2,234,243,324,3,0));
+
 
 
         }

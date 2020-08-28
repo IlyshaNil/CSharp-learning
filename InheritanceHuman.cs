@@ -5,17 +5,18 @@ namespace CSharp_learning
     public class InheritanceHuman
     {
         public string Name { get; set; }
+        private int age;
         public int Age 
         { 
             get
             {
-                return Age;
+                return age;
             } 
             set
             {
                 if (value > 0 )
                 {
-                    Age = value;
+                    age = value;
                 }
             } 
         }

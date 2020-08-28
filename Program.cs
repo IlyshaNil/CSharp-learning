@@ -37,6 +37,31 @@ namespace CSharp_learning
             
 
             
+            
+            Animal[] animals = new Animal[3];
+            Cat cat  = new Cat();
+            cat.Name = "Barsik";
+
+            Dog dog = new Dog();
+            dog.Name = "Zabaka";
+
+            Boozer savelich = new Boozer();
+            savelich.Name = "Pasha";
+
+            animals[0] = cat;
+            animals[1] = dog;
+            animals[2] = savelich;
+
+            for(int i = 0; i < animals.Length; i++)
+            {
+                animals[i].GetRoar();
+            
+            }
+
+            
+
+
+
         }
     }
 }
